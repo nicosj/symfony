@@ -7,7 +7,9 @@ api_platform:
     swagger:
         versions: [3]
         api_keys:
-            - { name: 'Authorization', type: 'apiKey', in: 'header' }
+            apiKey:
+                name: Authorization
+                type: header
     title: 'Symfony API Platform'
     version: '1.0.0'
-    show_webby: true
+    show_webby: false
